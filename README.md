@@ -1,5 +1,3 @@
 # IK41
-eric was hier
-<br>Viktor was hier ook.
-<br>Mikail ook
-<br>learn2break
+JE ZIT NU IN DE MASTER BRANCH!
+<br>Alleen werken in de 'Development' branch.
