@@ -2,7 +2,15 @@ header {
     background-color:#99ccff;
     color:grey;
     text-align:left;
-    margin:2px;2px;0px;2px;
+    height: 70px;
+}
+sitelogo {
+margin: 0px;
+padding: 0px 0px 0px 0px;
+float: left;
+}
+body {
+    margin: 0px;
 }
 nav {
     line-height:30px;
@@ -22,7 +30,13 @@ footer {
     color:black;
     clear:both;
     text-align:center;
-    padding:2px;}
+    padding-height:0px;
+    font-size:10px;
+}
+article {
+    padding-top: 0px;
+    padding-left: 130px;
+}
 ul
 {
     list-style-type: none;
