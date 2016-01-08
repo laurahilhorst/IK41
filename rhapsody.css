@@ -13,6 +13,9 @@ body {
     margin: 0px;
 }
 nav {
+    height: 30px;
+}
+aside {
     line-height:30px;
     background-color:#eeeeee;
     height:1000px;
