@@ -20,7 +20,7 @@ include("sidebar.php")
 <h1> Forum </h1>
 
 <div class="entry_title">
-	<h3>~Example entry</h3>
+	<h3>Example entry</h3>
 </div>
 <div class="entry_info">
 	<h4>Posted by JohnDoe16 on 01-13-2016 at 4:58PM</h4>
