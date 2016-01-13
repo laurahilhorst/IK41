@@ -17,8 +17,7 @@ include("sidebar.php")
 ?>
 
 <article>
-<h1> Forum </h1>
-<p>Hier komt een voorbeeldbericht.</p>
+<p>Tags, widgets. Content voor de overige pagina's wordt anders (en met een andere padding).</p>
 </article>
 
 <?php
