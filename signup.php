@@ -4,25 +4,17 @@
 <title>RHAPSODY</title>
 <link rel="stylesheet" type="text/css" href="rhapsody.css" />
 </head>
+
 <body>
-
-<header>
-	<img src="rhapsody_logo.png" alt="Rhapsody">
-</header>
-
-<nav></nav>
-
-<aside>
-	<ul>
-		<li><a href="frontpage.html">Home</a></li>
-		<li><a href="forum\mainindex.html">Forum</a></li>
-		<li><a href="about:blank">Artists</a></li>
-		<li><a href="about:blank">Gear</a></li>
-		<li><a href="about:blank">Music</a></li>
-		<li><a href="myprofile.html">My Profile</a></li>
-		<li><a href="about.html">About</a></li>
-	</ul>
-</aside>
+<?php
+include("header.php") //include header content
+?>
+<?php
+include("navbar.php")
+?>
+<?php 
+include("sidebar.php")
+?>
 
 <article>
 <h1>Sign Up for Rhapsody</h1>
@@ -187,8 +179,9 @@
 </p>
 </form>
 </article>
-<footer>
-<p>Posted by: Rhapsody groepje UvA &nbsp;&nbsp;&nbsp;&nbsp Contact information: <a href="mailto:someone@example.com">someone@example.com</a></p>
-</footer>
+
+<?php
+include("footer.php")
+?>
 </body>
 </html>
