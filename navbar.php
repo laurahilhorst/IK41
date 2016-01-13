@@ -1,4 +1,3 @@
-
 <nav>
 	<button type="button" id="loginButton">
 		<a id="toggle-loginBox" href='#'>
@@ -12,7 +11,7 @@
 				</fieldset>
 				<fieldset id="loginBox-submit">
 					<input id="submit" type="submit" value="submit">
-					<a id="signupLink" href="signup.html">
+					<a id="signupLink" href="signup.php">
 						Sign Up
 					</a>
 				</fieldset>
