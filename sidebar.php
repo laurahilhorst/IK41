@@ -1,6 +1,6 @@
 
 <aside>
-	 <div class="sidebar_text"><ul>
+	 <ul id="sidebar">
 		<li><a href="frontpage.php">Home</a></li>
 		<li><a href="myprofile.php">My Profile</a></li>
 		<li><a href="about.php">About</a></li>

@@ -166,11 +166,9 @@ include("sidebar.php")
 	<option value="1931">1931</option>
 	<option value="1930">1930</option>
 </select>
-<br><br>City: <br><input type="text" name="City">
+<br><br>Area: <br><input type="text" name="Area">
 <br><br>E-mail: <br><input type="text" name="E-mail">
-<br><br>Telephone Number: <br><input type="text" name="Telephone Number">
 <br><br>Music Experience Level: <br><input type="radio" name="Music Experience Level" value="Beginner"> Beginner
-<input type="radio" name="Music Experience Level" value="Rookie"> Rookie
 <input type="radio" name="Music Experience Level" value="Intermediate"> Intermediate
 <input type="radio" name="Music Experience Level" value="Expert"> Expert
 <input type="radio" name="Music Experience Level" value="Professional"> Professional <br><br>
