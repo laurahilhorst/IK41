@@ -61,7 +61,11 @@ section {
     padding:10px;
 }
 
-.twitter {
+#twitter {
+    text-align:right;
+}
+
+#spotify {
     text-align:right;
 }
 
