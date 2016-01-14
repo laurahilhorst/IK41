@@ -36,6 +36,7 @@ nav #loginBox {
 
 nav #loginButton:hover > #loginBox {
     display: block;
+    
 }
 
 nav #button {
