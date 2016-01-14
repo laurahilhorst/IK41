@@ -54,9 +54,7 @@ include("sidebar.php")
 	</div>
 	<div id="spotify">
 	<p><b> Spotify Charts </p></b>
-	<iframe src="http://charts.spotify.com/embed?object=tracks&rank=most_streamed&country=global&windowtype=weekly&date=latest" width="300" height="400" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
-	</div>
-</article>
+<iframe src="https://embed.spotify.com/?uri=spotify:user:digsternl:playlist:2teqFlKZz1polBDJVsQEW9&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe><iframe src="https://embed.spotify.com/?uri=spotify:user:digsternl:playlist:6b8350vVrYPsOFluMBeCSO&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
 <?php
 include("footer.php")
