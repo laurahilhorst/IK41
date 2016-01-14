@@ -70,7 +70,7 @@ include("sidebar.php")
 <div>
 <div>
 <p><b> Spotify's Top 40 </p></b>
-<iframe src="http://charts.spotify.com/embed?object=tracks&rank=most_streamed&country=global&windowtype=weekly&date=latest" width="300" height="400" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div>
+<iframe src="http://charts.spotify.com/embed?object=tracks&rank=most_streamed&country=global&windowtype=weekly&date=latest" width="300" height="400" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 >>>>>>> Nieuwe Spotify Widget
 </article>
 
