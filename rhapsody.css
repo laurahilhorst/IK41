@@ -32,10 +32,12 @@ nav #loginBox {
     display: none;
     z-index: 999;
     position: absolute;
+    float: right;
 }
 
 nav #loginButton:hover > #loginBox {
     display: block;
+    float: right;
     
 }
 
