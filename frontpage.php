@@ -15,8 +15,8 @@ include("navbar.php")
 <?php 
 include("sidebar.php")
 ?>
-<section>
 
+<section>
 	<h1>Popular threads by category</h1>
 	<h2>Artists</h2>
 	<ul class="popular">
@@ -53,8 +53,8 @@ include("sidebar.php")
 	</div>
 	<div id="spotify">
     <br><p><h2>Spotify Charts</h2></p>
-<iframe src="https://embed.spotify.com/?uri=spotify:user:digsternl:playlist:2teqFlKZz1polBDJVsQEW9&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe><br><br>
-<iframe src="https://embed.spotify.com/?uri=spotify:user:digsternl:playlist:6b8350vVrYPsOFluMBeCSO&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Adigster.fm%3Aplaylist%3A4noDy1IQejcxDbTLvzuWhS&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe><br><br>
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A4ldNPWkhPThHdq0FSxB0EZ&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 </section>
 <?php
 include("footer.php")
