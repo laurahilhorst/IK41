@@ -1,4 +1,6 @@
 <nav>
+    <a href="frontpage.php">Home</a>
+    <a href="myprofile.php">My Profile</a>
 	<button type="button" id="loginButton">
 		<a id="toggle-loginBox" href='#'>
 			login/signup
