@@ -1,4 +1,4 @@
 
 <footer>
-  <p>Posted by: Rhapsody groepje UvA &nbsp;&nbsp;&nbsp;&nbsp Contact information: <a href="mailto:someone@example.com">someone@example.com</a></p>
+  <p>Created by Eric, Scipio, Mikail, Viktor and Laura &nbsp;&nbsp;&nbsp;&nbsp Contact information: <a href="mailto:askrhapsody@gmail.com">askrhapsody@gmail.com</a></p>
 </footer>
