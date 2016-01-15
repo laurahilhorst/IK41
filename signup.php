@@ -19,13 +19,27 @@ include("sidebar.php")
 <article>
 <h1>Sign Up for Rhapsody</h1>
 
-<form>Gender: <br><input type="radio" name="gender" value="Male"> Male
+<form id='signup' action='signup.php' method='post'
+	accept-charset='UTF-8'>
+<fieldset>
+<legend>Sign Up</legend>
+Gender: <br><input type="radio" name="gender" value="Male"> Male
 <input type="radio" name="gender" value="Female"> Female
 <input type="radio" name="gender" value="Other"> Other
 <form action="action_page.php">
-<br><br>First name: <br><input type="text" name="firstname"><form action="action_page.php">
-<br><br>Last name: <br><input type="text" name="lastname">
-<br><br>Birthday: <br><select name="BirthdayDay">
+<input type='hidden' name='submitted' id='submitted' value='1'/><br><br>
+<label for='name' >Your Full Name: </label>
+<input type='text' name='name' id='name' maxlength="50" /><br><br>
+<label for='email' >Email Address:</label>
+<input type='text' name='email' id='email' maxlength="50" /><br><br>
+ 
+<label for='username' >Username:</label>
+<input type='text' name='username' id='username' maxlength="50" /><br><br>
+ 
+<label for='password' >Password:</label>
+<input type='password' name='password' id='password' maxlength="50" /><br><br>
+
+Birthday: <br><select name="BirthdayDay">
 	<option> - Day - </option>
 	<option value="1">1</option>
 	<option value="2">2</option>
@@ -166,15 +180,13 @@ include("sidebar.php")
 	<option value="1931">1931</option>
 	<option value="1930">1930</option>
 </select>
-<br><br>Area: <br><input type="text" name="Area">
-<br><br>E-mail: <br><input type="text" name="E-mail">
 <br><br>Music Experience Level: <br><input type="radio" name="Music Experience Level" value="Beginner"> Beginner
 <input type="radio" name="Music Experience Level" value="Intermediate"> Intermediate
 <input type="radio" name="Music Experience Level" value="Expert"> Expert
 <input type="radio" name="Music Experience Level" value="Professional"> Professional <br><br>
-<p> 
-<input type="submit" value="Sign Up" /> 
-</p>
+<input type='submit' name='Submit' value='Submit' />
+</fieldset>
+</select>
 </form>
 </article>
 
