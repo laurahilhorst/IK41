@@ -18,14 +18,15 @@ include("sidebar.php")
 
 <article>
 <h1>My Profile</h1>
-<h2>Username: "UsernameOfUser"</h2>
+<h2>Username: "Username of User"</h2>
 <h3>Your Account Information</h3>
-<img src="rhapsody_logo.png" alt="Rhapsody" style="width:105px;height:180px;">
-<p>First Name: First Name Here</p>
-<p>Last Name: Last Name Here</p>
-<p>City: City Name Here</p>
-<p>Registered Email Adress: Email Here</p>
-<p>Music Experience Level: Music Experience Level Here</p>
+<p><b>Avatar:</b>
+<br><img src="rhapsody_logo.png" alt="Rhapsody" style="width:301px;height:85px;"></p>
+<p><b>First Name:</b> First Name Here</p>
+<p><b>Last Name:</b> Last Name Here</p>
+<p><b>City:</b> City Name Here</p>
+<p><b>Email Adress:</b> Registered Email Here</p>
+<p><b>Music Experience Level:</b> Music Experience Level Here</p>
 </article>
 
 <?php

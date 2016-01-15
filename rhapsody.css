@@ -40,11 +40,12 @@ nav #loginBox {
 nav #loginButton:hover > #loginBox {
     display: block;
     float: right;
-    
 }
 
-nav #button {
-    display: block
+nav #loginButton {
+    display: block;
+    float: right;
+    height: 100%;
 }
 
 aside {
@@ -62,7 +63,7 @@ aside {
 section {
     width:350px;
     float:left;
-    padding:10px;
+    padding: 0px 30px 0px 30px;
 }
 
 h1 {
@@ -78,10 +79,6 @@ h2 {
 
 }
 
-#spotify {
-    text-align:right;
-}
-
 footer {
     background-color:#eeeeee;
     color:black;
@@ -93,7 +90,7 @@ footer {
 
 article {
     padding-top: 0px;
-    padding-left: 130px;
+    padding-left: 150px;
     padding-right: 30px;
 }
 
@@ -129,18 +126,11 @@ ul
 }
 
 #feeds {
+    padding-top: 20px;
     float: right;
-
 }
 
-#twitter {
-    width: 350px;
-    text-align:right;
-
+#spotify {
+    margin: auto;
+    width: 300px;
 }
-
-
-
-
-
-
