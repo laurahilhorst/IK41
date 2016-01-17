@@ -34,6 +34,8 @@ nav #loginBox {
     z-index: 999;
     position: absolute;
     float: right;
+    background-color: #ffffff
+    
 }
 
 nav #loginButton:hover > #loginBox {
