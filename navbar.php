@@ -1,34 +1,27 @@
 <?php
-echo "HELLO";
-var_dump($_POST);
-echo !empty($_POST['Username']);
 if (!empty($_POST['Username'])) {
 	include("connectdb.php");
 	
 	$success = false;
-	echo 'succes false';
 	$stmt = $db->prepare('SELECT 1 FROM user WHERE username=? AND password=?');
 		$stmt->bindValue(1, $_POST["Username"], PDO::PARAM_STR);
 		$stmt->bindValue(2, $_POST["Password"], PDO::PARAM_STR);
 		$stmt->execute();
 
 
-	echo "stmt";
 	$result = $stmt->fetch(PDO::FETCH_NUM);
 	if ($result) {
-		echo ('result');
 		if ($result[0] === "1") {
 			$success = true;
-			echo ('succes true');
 		}
 	}
 
 	if ($success) {
-		echo ("Gelukt!");
+		echo ("Login succesful.");
 	}
 
 	else {
-		echo ("Login failed. Click <a href=\"{$_SERVER['PHP_SELF']}\">here</a> to try again."); 
+		echo ("Login failed. <a href=\"{$_SERVER['PHP_SELF']}\">Try again.</a>"); 
 	}
 }
 ?>
